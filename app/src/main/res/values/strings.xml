@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Manager</string>
+    <string name="title_main">Lista de Cidades</string>
 </resources>

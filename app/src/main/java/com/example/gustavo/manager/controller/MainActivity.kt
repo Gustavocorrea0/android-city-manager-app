@@ -10,7 +10,7 @@ import com.example.gustavo.manager.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    // 24:02 MIN
+    // 47:10 MIN
 
     private lateinit var binding: ActivityMainBinding // novo
 
