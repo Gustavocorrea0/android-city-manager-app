@@ -1,5 +1,6 @@
 package com.example.gustavo.myapplication.controller
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -32,6 +33,12 @@ class MainActivity : AppCompatActivity() {
             binding.rcvCities.layoutManager = llm
             adapter = CityAdapter(DataStore.cities)
             binding.rcvCities.adapter = adapter // populando a recicle view com dados
+        }
+
+        binding.fab.setOnClickListener {
+            Intent(this, ManagerActivity::class.java).also { i ->
+                startActivity(i)
+            }
         }
 
     }
